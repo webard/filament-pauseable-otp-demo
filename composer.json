@@ -48,7 +48,7 @@
     "repositories": [
         {
             "type": "path",
-            "url": "/Users/bgajda/Contrib/filament/packages/*",
+            "url": "../filament/packages/*",
             "options": {
                 "symlink": true
             }
