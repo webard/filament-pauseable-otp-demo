@@ -13,7 +13,7 @@
         "filament/filament": "dev-filament-pauseable-extracted-otp as 4.99.99",
         "laravel/framework": "^13.8",
         "laravel/tinker": "^3.0",
-        "webard/filament-otp-actions": "@dev",
+        "webard/filament-otp-actions": "^0.1",
         "filament/actions": "dev-filament-pauseable-extracted-otp as 4.99.99",
         "filament/forms": "dev-filament-pauseable-extracted-otp as 4.99.99",
         "filament/infolists": "dev-filament-pauseable-extracted-otp as 4.99.99",
@@ -49,13 +49,6 @@
         {
             "type": "path",
             "url": "/Users/bgajda/Contrib/filament/packages/*",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "type": "path",
-            "url": "/Users/bgajda/Packages/filament-otp-actions",
             "options": {
                 "symlink": true
             }

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "589649c17ac48c73659a2d88e91a2825",
+    "content-hash": "f03054b0bab487f9f2b3c08565812c25",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -8082,11 +8082,17 @@
         },
         {
             "name": "webard/filament-otp-actions",
-            "version": "dev-main",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webard/filament-otp-actions.git",
+                "reference": "dd83ebc77877b8b6529057cff7f1e604fb5eca00"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/bgajda/Packages/filament-otp-actions",
-                "reference": "091c69cb6ff18be91f103429a05507361562838d"
+                "type": "zip",
+                "url": "https://api.github.com/repos/webard/filament-otp-actions/zipball/dd83ebc77877b8b6529057cff7f1e604fb5eca00",
+                "reference": "dd83ebc77877b8b6529057cff7f1e604fb5eca00",
+                "shasum": ""
             },
             "require": {
                 "filament/actions": "*",
@@ -8108,14 +8114,16 @@
                     "Webard\\FilamentOtpActions\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
             "description": "Confirm Filament actions with a one-time code from the user's multi-factor authentication method.",
-            "transport-options": {
-                "symlink": true,
-                "relative": false
-            }
+            "support": {
+                "issues": "https://github.com/webard/filament-otp-actions/issues",
+                "source": "https://github.com/webard/filament-otp-actions/tree/v0.1.0"
+            },
+            "time": "2026-08-09T10:17:30+00:00"
         }
     ],
     "packages-dev": [
@@ -10478,8 +10486,7 @@
         "filament/schemas": 20,
         "filament/support": 20,
         "filament/tables": 20,
-        "filament/widgets": 20,
-        "webard/filament-otp-actions": 20
+        "filament/widgets": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
